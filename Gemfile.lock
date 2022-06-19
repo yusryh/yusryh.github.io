@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/jekyll/minima
+  revision: 296bf6b872b8450529bee1e48d0ca9be200a4be5
+  specs:
+    minima (2.5.1)
+      jekyll (>= 3.5, < 5.0)
+      jekyll-feed (~> 0.9)
+      jekyll-seo-tag (~> 2.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -207,10 +216,6 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
     mini_portile2 (2.8.0)
-    minima (2.5.1)
-      jekyll (>= 3.5, < 5.0)
-      jekyll-feed (~> 0.9)
-      jekyll-seo-tag (~> 2.1)
     minitest (5.16.0)
     nokogiri (1.13.6)
       mini_portile2 (~> 2.8.0)
@@ -240,6 +245,7 @@ GEM
       faraday (>= 0.17.3, < 3)
     simpleidn (0.2.1)
       unf (~> 0.1.4)
+    stringex (2.8.5)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     thor (1.2.1)
@@ -263,7 +269,8 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.6)
-  minima (~> 2.0)
+  minima!
+  stringex
   thor
   tzinfo (~> 1.2)
   tzinfo-data
