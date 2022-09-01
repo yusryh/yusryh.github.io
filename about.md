@@ -3,6 +3,9 @@ layout: page
 title: About
 permalink: /about/
 ---
+Welcome to my blog.
+
+Here's some information about the Jekyll theme I am using.
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
