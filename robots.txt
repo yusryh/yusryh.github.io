@@ -3,3 +3,9 @@ Disallow: /
 
 User-agent: DuckDuckBot
 Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
