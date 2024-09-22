@@ -18,7 +18,7 @@ email: ""
 description: >- # this means to ignore newlines until "baseurl:"
   Code Writer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.yusry.de" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:
 
@@ -27,10 +27,19 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 show_excerpts: true
 
 minima:
   skin: dark
+
+
+defaults:
+  -
+    scope:
+      path: "assets/**/*"
+    values:
+      sitemap: false
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
